@@ -1,0 +1,10 @@
+description: 'Returns the relative path to the theme (or absolute path)'
+arguments:
+  theme: 'Theme name'
+options:
+  absolute: 'Return theme absolute path'
+messages:
+examples:
+  - description: 'Get the path of mytheme'
+    execution: |
+      drupal theme:path  mytheme
