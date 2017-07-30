@@ -25,6 +25,7 @@
         "drupal/contact_block": "^1.4",
         "drupal/contact_storage": "^1.0@beta",
         "drupal/core": "~8.0",
+        "drupal/devel": "^1.0@RC",
         "drupal/features": "^3.5",
         "drupal/social_media_links": "^2.5",
         "drupal/webform": "^5.0@beta",
