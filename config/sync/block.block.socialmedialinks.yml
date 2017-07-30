@@ -1,0 +1,104 @@
+uuid: 37d6dee6-0073-4b4f-a460-f06e709db2f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bartik
+id: socialmedialinks
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    behance:
+      value: ''
+      description: ''
+      weight: '-10'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-9'
+    contact:
+      value: ''
+      description: ''
+      weight: '-8'
+    drupal:
+      value: leormsbee
+      description: ''
+      weight: '-7'
+    email:
+      value: leormsbee@gmail.com
+      description: ''
+      weight: '-6'
+    facebook:
+      value: luanne.ormsbee
+      description: ''
+      weight: '-5'
+    github:
+      value: leormsbee
+      description: ''
+      weight: '-4'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-3'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-2'
+    linkedin:
+      value: leormsbee
+      description: ''
+      weight: '-1'
+    pinterest:
+      value: leormsbee
+      description: ''
+      weight: '0'
+    rss:
+      value: ''
+      description: ''
+      weight: '1'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '2'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '3'
+    twitter:
+      value: leormsbee
+      description: ''
+      weight: '4'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '5'
+    youtube:
+      value: ''
+      description: ''
+      weight: '6'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '7'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
