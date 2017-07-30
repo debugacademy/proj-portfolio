@@ -1,0 +1,9 @@
+uuid: da64a398-e612-4659-989d-d6d157be5845
+langcode: en
+status: true
+dependencies: {  }
+name: Technologies
+vid: drupal
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,21 @@
+uuid: 455b8092-bd2b-433d-a89f-443abad46e58
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_search
+id: contact_message.contact.field_search
+field_name: field_search
+entity_type: contact_message
+bundle: contact
+label: Search
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference
