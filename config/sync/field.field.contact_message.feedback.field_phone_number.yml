@@ -1,0 +1,23 @@
+uuid: 6eae9dc6-6561-4b0e-bccc-8ba2e14cd532
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_phone_number
+id: contact_message.feedback.field_phone_number
+field_name: field_phone_number
+entity_type: contact_message
+bundle: feedback
+label: 'Phone Number'
+description: 'Please enter your phone number where you would like to be contacted.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

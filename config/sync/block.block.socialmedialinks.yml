@@ -1,0 +1,104 @@
+uuid: a805a092-9f1b-4205-838c-7c937cc27651
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bartik
+id: socialmedialinks
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    behance:
+      value: ''
+      description: ''
+      weight: '-28'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-27'
+    contact:
+      value: ''
+      description: ''
+      weight: '-26'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-25'
+    email:
+      value: ''
+      description: ''
+      weight: '-24'
+    facebook:
+      value: ''
+      description: ''
+      weight: '-23'
+    github:
+      value: Leilazaazhoa
+      description: ''
+      weight: '-22'
+    googleplus:
+      value: leila.zaazhoa
+      description: ''
+      weight: '-21'
+    instagram:
+      value: littlezaaz
+      description: ''
+      weight: '-20'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '-19'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-18'
+    rss:
+      value: ''
+      description: ''
+      weight: '-17'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-16'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-15'
+    twitter:
+      value: ''
+      description: ''
+      weight: '-14'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-13'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-12'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

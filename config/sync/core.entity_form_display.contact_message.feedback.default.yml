@@ -1,0 +1,81 @@
+uuid: da60574f-39b5-4a8f-b941-3c6a89fcd9ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.field.contact_message.feedback.field_email
+    - field.field.contact_message.feedback.field_h
+    - field.field.contact_message.feedback.field_name
+    - field.field.contact_message.feedback.field_phone_number
+id: contact_message.feedback.default
+targetEntityType: contact_message
+bundle: feedback
+mode: default
+content:
+  copy:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    weight: 52
+    settings:
+      size: 60
+      placeholder: 'Your email '
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_h:
+    weight: 54
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_name:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: 'Full Name'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_phone_number:
+    weight: 53
+    settings:
+      placeholder: '+1 XXX-XXX-XXXX'
+    third_party_settings: {  }
+    type: number
+    region: content
+  mail:
+    weight: -40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: 'Your message.'
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Your subject'
+    third_party_settings: {  }
+hidden: {  }

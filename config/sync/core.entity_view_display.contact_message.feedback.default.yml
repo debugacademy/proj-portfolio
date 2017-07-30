@@ -1,0 +1,56 @@
+uuid: 4024d96a-93c6-4ee2-9185-e1266b6c8d70
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.field.contact_message.feedback.field_email
+    - field.field.contact_message.feedback.field_h
+    - field.field.contact_message.feedback.field_name
+    - field.field.contact_message.feedback.field_phone_number
+  module:
+    - options
+id: contact_message.feedback.default
+targetEntityType: contact_message
+bundle: feedback
+mode: default
+content:
+  field_email:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+  field_h:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone_number:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  message:
+    type: basic_string
+    weight: 3
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

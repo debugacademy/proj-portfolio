@@ -1,0 +1,19 @@
+uuid: 135b21f0-da0b-419f-aba1-0bd184d87234
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_name
+id: contact_message.feedback.field_name
+field_name: field_name
+entity_type: contact_message
+bundle: feedback
+label: Name
+description: 'Enter your name.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
