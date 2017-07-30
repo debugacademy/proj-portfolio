@@ -1,0 +1,12 @@
+uuid: b7c97c36-d3cc-4d11-9303-0cf75339060d
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - sajidjaber@yahoo.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''
