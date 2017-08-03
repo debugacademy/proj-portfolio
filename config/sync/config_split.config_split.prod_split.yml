@@ -1,0 +1,14 @@
+uuid: 5af3e1d7-4b4f-4833-a346-04bfc9b94b14
+langcode: en
+status: true
+dependencies: {  }
+id: prod_split
+label: 'Prod Split'
+folder: ../config/prod-split
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
