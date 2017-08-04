@@ -1,0 +1,28 @@
+uuid: a2981fed-96f8-4c05-9d63-396c071dc530
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_howdidyoufindme
+    - taxonomy.vocabulary.howfound
+id: contact_message.contact.field_howdidyoufindme
+field_name: field_howdidyoufindme
+entity_type: contact_message
+bundle: contact
+label: 'How did you find me?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      howfound: howfound
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
