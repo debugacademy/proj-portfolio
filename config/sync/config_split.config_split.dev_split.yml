@@ -1,0 +1,15 @@
+uuid: 43fbc351-659d-4799-9920-1ef338b05076
+langcode: en
+status: true
+dependencies: {  }
+id: dev_split
+label: 'Dev Split'
+folder: ../config/dev-split
+module:
+  devel: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

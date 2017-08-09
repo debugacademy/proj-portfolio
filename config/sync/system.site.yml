@@ -1,0 +1,14 @@
+uuid: 5a6fc527-cbbe-4662-a6ea-7c5f8c637730
+name: portfolio
+mail: sajidjaber@yahoo.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
