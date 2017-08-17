@@ -30,12 +30,34 @@ ol, ul {
   margin-top: 0;
 }
 
+header.navbar {
+.name.navbar-brand {
+color: #ffffff;
+text-transform: uppercase;
+}
+}
+header.navbar-default {
+background-color: #000;
+border: none;
+}
+
+
+#above_footer {
+background-color: #183345;
+color: #fefefe;
+padding-top: 77px;
+padding-bottom: 72px;
+text-align: center;
+padding-left: 65px;
+padding-right: 65px;
+}
+
 // Footer.
 .footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
+background-color: #102531;
+color: #fefefe;
+padding-top: 72px;
+padding-bottom: 55px;
 }
 
 // Paragraphs.
@@ -68,8 +90,5 @@ p:last-child,
   }
 }
 
-body {
-  background-color: red;
-}
 
 

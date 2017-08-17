@@ -1,0 +1,24 @@
+uuid: a34aa433-b03a-43c2-99a9-3100eb1e63c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - portfolio_theme
+id: main_2
+theme: portfolio_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: Main
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 0bed17cb-57a7-4241-b903-39dee958763b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - portfolio_theme
+id: sitebranding
+theme: portfolio_theme
+region: navigation
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
