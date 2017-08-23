@@ -6324,6 +6324,12 @@ header.navbar .name.navbar-brand {
   color: #ffffff;
   text-transform: uppercase; }
 
+.navbar-header {
+  max-width: 1080px; }
+
+#block-main {
+  float: right; }
+
 header.navbar-default {
   background-color: #000;
   border: none; }
@@ -6366,5 +6372,8 @@ p:last-child,
 
 body {
   background-color: #ffffff; }
+
+.menu nav navbar-nav {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */

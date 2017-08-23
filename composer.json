@@ -28,6 +28,7 @@
         "drupal/devel": "^1.0@RC",
         "drupal/features": "^3.5",
         "drupal/social_media_links": "^2.5",
+        "drupal/superfish": "^1.1",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },

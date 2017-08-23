@@ -10,8 +10,8 @@ dependencies:
     - portfolio_theme
 id: main
 theme: portfolio_theme
-region: navigation
-weight: 0
+region: navigation_collapsible
+weight: -2
 provider: null
 plugin: 'system_menu_block:main'
 settings:
