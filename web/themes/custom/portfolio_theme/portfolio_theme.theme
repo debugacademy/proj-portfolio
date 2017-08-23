@@ -5,3 +5,11 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+* Implements hook_preprocess.
+*/
+function portfolio_theme_preprocess(&$variables, $hook) {
+	$variables['year'] = date('Y');
+	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+}
