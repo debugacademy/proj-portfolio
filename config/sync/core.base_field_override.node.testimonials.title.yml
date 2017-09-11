@@ -1,0 +1,18 @@
+uuid: fd0e54d9-41e5-44ee-862a-af56f91a00b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.testimonials
+id: node.testimonials.title
+field_name: title
+entity_type: node
+bundle: testimonials
+label: Author
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+section#block-meetthedevblock .block-title {
+    display: none;
+}
+section#block-meetthedevblock h2 {
+    text-transform: uppercase;
+}    
+section#block-meetthedevblock {
+    margin: 0 auto;
+    width: 80%;
+}
+

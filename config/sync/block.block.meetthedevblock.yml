@@ -1,0 +1,30 @@
+uuid: 3dc8c119-81b8-4219-8b86-7b4c83662147
+langcode: en
+status: true
+dependencies:
+  module:
+    - portfolio_core
+    - system
+  theme:
+    - portfolio_theme
+id: meetthedevblock
+theme: portfolio_theme
+region: content
+weight: 0
+provider: null
+plugin: meet_the_dev_block
+settings:
+  id: meet_the_dev_block
+  label: 'Meet The Dev TEST'
+  provider: portfolio_core
+  label_display: visible
+  primary_heading: 'Your Name Here TEST'
+  heading_image:
+    - '2'
+  body: 'Welcome to my website. TEST'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 78572fb5-4385-4c9f-8f2f-e12b41c76ae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_project_
+    - node.type.portfolio
+id: node.portfolio.field_featured_project_
+field_name: field_featured_project_
+entity_type: node
+bundle: portfolio
+label: 'Featured Project?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

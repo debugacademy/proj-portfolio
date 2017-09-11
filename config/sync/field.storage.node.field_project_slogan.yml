@@ -1,0 +1,20 @@
+uuid: 400c6f1d-76b3-465f-a283-d3544a3bc212
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_project_slogan
+field_name: field_project_slogan
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

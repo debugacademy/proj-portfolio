@@ -1,0 +1,23 @@
+uuid: 81c8abc6-ccbf-409c-9600-5cc850bfb161
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website_url
+    - node.type.portfolio
+  module:
+    - link
+id: node.portfolio.field_website_url
+field_name: field_website_url
+entity_type: node
+bundle: portfolio
+label: 'Website URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

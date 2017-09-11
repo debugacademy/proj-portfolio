@@ -1,0 +1,4 @@
+portfolio_core:
+  css:
+    theme:
+      portfolio_core.css {}

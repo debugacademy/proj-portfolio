@@ -10,7 +10,7 @@ id: node.portfolio.field_technologies
 field_name: field_technologies
 entity_type: node
 bundle: portfolio
-label: Technologies
+label: 'Technologies Used'
 description: ''
 required: false
 translatable: false
