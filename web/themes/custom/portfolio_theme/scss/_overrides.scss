@@ -34,6 +34,8 @@ header.navbar {
   .name.navbar-brand {
     color: #ffffff;
     text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 8px;
   }
 }
 
@@ -41,13 +43,31 @@ header.navbar {
   max-width: 1080px;
 }
 
+// Main menu
+ul.sf-menu.menu li {
+    margin-top: 13px;
+}
+
+ul.sf-menu li {
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 4px;
+    float: right;  
+}
+
+ul.sf-menu a {
+  color: #ffffff;
+  padding: 11px 30px;
+}
+
+ul.sf-menu a.is-active {
+  border: 2px solid #464646;
+  border-radius: 25px; 
+}
+
 #block-main {
   float:right;
 }
-
-
-
-
 
 
 header.navbar-default {
@@ -94,7 +114,6 @@ p:last-child,
   }
 }
 
-
 .help-block, .control-group .help-inline {
   color: $gray-light;
   font-size: 12px;
@@ -113,6 +132,50 @@ body {
   float: right;
 }
 
+// Portfolio view.
+#block-views-block-portfolio-block-1 {
+  background-color: #f4f3f1;
+  text-transform: uppercase;
+  text-align: center;
+  .views-row {
+    height: 500px;
+    margin-bottom: 45px;
+  }
+  img {
+    max-height: 310px;
+    display: inline-block;
+  }
+  .portfolio-summary {
+    background-color: #96acbd;
+    color: #ffffff;
+    width: 90%;
+    margin-top: -70px;
+    z-index: 999;
+    position: absolute;
+    left: 5%;
+    height: 250px;
+    a {
+      color: #ffffff;
+    }
+  }
+  h2 {
+    color: #82aab9;
+    font-size: 9px;
+    margin-bottom: 17px;
+  }
+  .view-header {
+    color: #526572;
+    font-size: 13px;
+    margin-bottom: 54px;
+  }
 
+  .button a {
+    display: block;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 28px;
+  }
+    
 
+}
 

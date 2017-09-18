@@ -10,7 +10,7 @@ dependencies:
 id: meetthedevblock
 theme: portfolio_theme
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: meet_the_dev_block
 settings:

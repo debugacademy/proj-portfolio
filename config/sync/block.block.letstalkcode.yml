@@ -2,6 +2,10 @@ uuid: c993df9d-5d39-41bf-99df-43264f05a92f
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:basic:b64e3120-1e56-4800-b2e5-a15e29188c6e'
+  module:
+    - block_content
   theme:
     - portfolio_theme
 id: letstalkcode

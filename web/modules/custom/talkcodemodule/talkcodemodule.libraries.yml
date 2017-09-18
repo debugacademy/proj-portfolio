@@ -1,0 +1,7 @@
+talkcodemodule:
+  version: 1.x
+  css:
+    layout:
+      talkcodemodule.css: {}
+    theme:
+      talkcodemodule.css: {}

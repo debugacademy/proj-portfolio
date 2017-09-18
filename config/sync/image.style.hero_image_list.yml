@@ -1,0 +1,14 @@
+uuid: 06ca2281-2e79-4f74-960c-926ee02332ce
+langcode: en
+status: true
+dependencies: {  }
+name: hero_image_list
+label: 'Hero Image List'
+effects:
+  ab4a00f3-d664-4431-8d6e-4338facb3e4d:
+    uuid: ab4a00f3-d664-4431-8d6e-4338facb3e4d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 850
+      height: 440
