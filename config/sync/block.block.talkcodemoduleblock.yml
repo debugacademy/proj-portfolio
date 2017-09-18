@@ -8,8 +8,8 @@ dependencies:
     - portfolio_theme
 id: talkcodemoduleblock
 theme: portfolio_theme
-region: above_footer
-weight: 0
+region: header
+weight: -3
 provider: null
 plugin: talkcodemoduleblock
 settings:
