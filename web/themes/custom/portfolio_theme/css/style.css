@@ -6322,10 +6322,29 @@ ol, ul {
 
 header.navbar .name.navbar-brand {
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 8px; }
 
 .navbar-header {
   max-width: 1080px; }
+
+ul.sf-menu.menu li {
+  margin-top: 13px; }
+
+ul.sf-menu li {
+  text-transform: uppercase;
+  font-size: 8px;
+  letter-spacing: 4px;
+  float: right; }
+
+ul.sf-menu a {
+  color: #ffffff;
+  padding: 11px 30px; }
+
+ul.sf-menu a.is-active {
+  border: 2px solid #464646;
+  border-radius: 25px; }
 
 #block-main {
   float: right; }
