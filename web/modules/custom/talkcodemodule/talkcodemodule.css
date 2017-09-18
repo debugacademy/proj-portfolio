@@ -36,9 +36,10 @@ section#block-talkcodemoduleblock h3 {
     color: #FFF;
 }  
 
+section#block-talkcodemoduleblock h4 {
+    text-align: center;
+}
 section#block-talkcodemoduleblock h4 a {
-	position: absolute;
-    left: 40%;
     border-radius: 25px;
     text-transform: uppercase;
     color: #FFF;
@@ -50,4 +51,4 @@ section#block-talkcodemoduleblock h4 a {
 
 section#block-talkcodemoduleblock h4 a:hover {
     color: #000;
-} 
+}
