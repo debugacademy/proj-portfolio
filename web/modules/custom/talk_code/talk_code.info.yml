@@ -1,0 +1,5 @@
+name: Talk Code
+description: This contains the talk code module block.
+core: 8.x
+package: Talk Code
+type: module
