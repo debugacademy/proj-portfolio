@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+# Schema for the theme setting configuration file of the portfolio_theme theme.
+
+portfolio_theme.settings:
+  type: theme_settings
+  label: 'portfolio_theme settings'
+=======
 # Schema for the theme setting configuration file of the THEMETITLE theme.
 
 portfolio_theme.settings:
   type: theme_settings
   label: 'Portfolio Theme settings'
+>>>>>>> ef1cc21b8248479ae132fa5d875fadfb2fb15c43
