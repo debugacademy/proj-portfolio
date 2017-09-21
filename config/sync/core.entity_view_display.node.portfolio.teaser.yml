@@ -26,5 +26,12 @@ content:
     weight: 100
     region: content
 hidden:
+  field_desktop_image: true
+  field_featured_project_: true
+  field_hero_image: true
+  field_mobile_image: true
   field_picture: true
+  field_project_slogan: true
+  field_tablet_image: true
   field_technologies: true
+  field_website_url: true

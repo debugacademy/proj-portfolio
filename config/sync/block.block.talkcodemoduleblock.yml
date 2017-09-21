@@ -1,0 +1,23 @@
+uuid: e2d5e96f-34c1-4f90-905c-7039aead76b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - talkcodemodule
+  theme:
+    - portfolio_theme
+id: talkcodemoduleblock
+theme: portfolio_theme
+region: header
+weight: -3
+provider: null
+plugin: talkcodemoduleblock
+settings:
+  id: talkcodemoduleblock
+  label: Talkcodemoduleblock
+  provider: talkcodemodule
+  label_display: '0'
+  title: 'BUILD IT BOLD AND BEAUTIFUL'
+  subtitle: 'Work with a reliable developer and build a brilliant digital experience'
+  talkcodebutton: 'LETS TALK CODE'
+visibility: {  }
