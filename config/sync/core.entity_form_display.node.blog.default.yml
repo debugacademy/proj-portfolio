@@ -5,11 +5,14 @@ dependencies:
   config:
     - field.field.node.blog.body
     - field.field.node.blog.field_blog_author
-    - field.field.node.blog.field_blog_image
+    - field.field.node.blog.field_hero_image
+    - field.field.node.blog.field_paragraphs
+    - field.field.node.blog.field_title
     - image.style.thumbnail
     - node.type.blog
   module:
     - image
+    - paragraphs
     - path
     - text
 id: node.blog.default
@@ -40,13 +43,33 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_blog_image:
-    weight: 33
+  field_hero_image:
+    weight: 34
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_paragraphs:
+    type: entity_reference_paragraphs
+    weight: 35
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 36
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   path:
     type: path

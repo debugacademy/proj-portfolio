@@ -1,0 +1,29 @@
+uuid: ac3a2af4-ff37-4ef4-8ad3-3ced096d0f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.blog
+  module:
+    - entity_reference_revisions
+id: node.blog.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: blog
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      text:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

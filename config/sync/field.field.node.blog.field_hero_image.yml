@@ -1,38 +1,38 @@
-uuid: 1ab183a2-463d-49ec-a629-fa8551858e33
+uuid: f43f01dd-ee17-4e78-85a8-a84992f556c6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_blog_image
+    - field.storage.node.field_hero_image
     - node.type.blog
   module:
     - image
-id: node.blog.field_blog_image
-field_name: field_blog_image
+id: node.blog.field_hero_image
+field_name: field_hero_image
 entity_type: node
 bundle: blog
-label: 'Blog Image'
+label: 'Hero Image Banner'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
-  max_resolution: ''
-  min_resolution: ''
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
     height: null
-  file_directory: '[date:custom:Y]-[date:custom:m]'
-  max_filesize: ''
   handler: 'default:file'
   handler_settings: {  }
 field_type: image
